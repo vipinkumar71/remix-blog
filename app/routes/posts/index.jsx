@@ -15,7 +15,13 @@ function PostItems() {
   const  {posts}=useLoaderData()
   return (
     <div>
+    <div className="page-header">
     <h1>PostItems</h1>
+    <Link to="/pages/new" className='btn'>
+      New Post
+    </Link>
+    </div>
+    
     <ul className="posts-list">
     {posts.map(post=>(
       <li key={post.id}>
