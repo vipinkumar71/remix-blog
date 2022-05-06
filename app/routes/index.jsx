@@ -1,5 +1,3 @@
-
-
 function Home() {
   return (
     <div><h1>Welcome to Remix</h1>
